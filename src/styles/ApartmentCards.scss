@@ -7,11 +7,14 @@
   border-radius: 20px;
   padding: 55px;
   margin-top: 50px;
-  gap: 40px;
+  margin-bottom: 30px;
+  gap: 30px;
+  max-height: 700px; 
+  overflow-y: auto; 
 
   .apartment-card {
     width: calc(33.33% - 40px);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     position: relative;
     box-sizing: border-box;
 
@@ -41,7 +44,6 @@
       -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(255, 255, 255), endColorstr=rgb(0, 0, 0));
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=rgb(255, 255, 255), endColorstr=rgb(0, 0, 0));
       border-radius: 10px;
-
     }
 
     h2 {
@@ -49,7 +51,6 @@
       bottom: 10px;
       left: 10px;
       color: #fff;
-      /* Couleur du texte du titre */
       padding: 5px 10px;
       margin: 0;
       font-size: 16px;
@@ -60,20 +61,24 @@
 
 @media (max-width: 768px) {
   .apartment-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 0px;
-    margin-top: 50px;
-    gap: 20px;
-
+    background-color: white;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    gap: 10px;
+    max-height: 800px; /* Ajustez cette valeur en fonction de votre contenu */
+    overflow-y: auto; 
+    
     .apartment-card {
-      width:100%;
-      margin-bottom: 40px;
-      padding: 0px;
+      width: 100%;
+      margin-bottom: 10px;
+      h2{
+        font-size: 0.8em;
+      }
+
       img {
         height: 255px;
       }

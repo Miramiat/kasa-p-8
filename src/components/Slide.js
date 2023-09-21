@@ -25,9 +25,13 @@ function Slide({ images }) {
       <button className="next-arrow" onClick={nextSlide}>
         &#8250;
       </button>
+      <div className="slide-counter">
+        {currentImage + 1}/{images.length}
+      </div>
     </div>
   );
 }
+
 
 export default Slide;
 
