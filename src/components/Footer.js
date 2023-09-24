@@ -12,7 +12,7 @@ function Footer() {
        
       </div>
       <div>
-        <p>
+        <p className='footer-p'>
          © 2020 Kasa. All rights reserved
         </p>
 

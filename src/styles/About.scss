@@ -17,6 +17,11 @@
     padding: 20px;
     border-radius: 10px;
     height: 52px;
+    @media (max-width: 768px){
+      height: 30px;
+      font-size: 0.9em;
+      border-radius: 5px;
+    }
 
 
     .arrow {
@@ -45,7 +50,7 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   .about-content{
-padding: 0px;
+    padding: 0px;
     margin-bottom: 30px;
   }
 }
