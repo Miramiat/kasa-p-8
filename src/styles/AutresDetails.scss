@@ -6,7 +6,10 @@
         flex-direction: column;
     }
     h2{
-        font-size: 2rem;
+        font-size: 2em;
+        @media (max-width: 768px){
+            font-size: 1.5em;
+        }
     }
     ul{
         display:flex;

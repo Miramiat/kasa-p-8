@@ -36,7 +36,7 @@
     position: absolute;
     top: 47%;
     transform: translateY(-50%);
-    font-size: 141px;
+    font-size: 7em;
     font-weight: 700;
     background: none;
     border: none;
@@ -46,6 +46,9 @@
     padding: 0;
     margin: 0;
     z-index: 999;
+    @media (max-width: 768px){
+      font-size: 3em;
+    }
   }
   
   .prev-arrow {
